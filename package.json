@@ -1,0 +1,29 @@
+{
+  "name": "pure-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run clean:dist && gulp watch",
+    "clean:dist": "rm -rf dist",
+    "build": "npm run clean:dist && gulp sass"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-notifier": "^7.0.1",
+    "node-sass": "^4.14.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ]
+}
