@@ -36,6 +36,11 @@ $( document ).ready(function() {
     }
    });
   /*警告 上段jquery會吃掉網頁暫存 不建議使用*/
+  function turnLogoHeight() {
+    let win = $(window).height();
+    $(".firstcut_main").css("height",win);
+  }
+  turnLogoHeight();
 });
 
 
