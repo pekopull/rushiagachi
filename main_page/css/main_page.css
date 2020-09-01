@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -396,13 +397,339 @@ table {
   }
 }
 
+@-webkit-keyframes backgroundmove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -500px -500px;
+  }
+}
+
+@keyframes backgroundmove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -500px -500px;
+  }
+}
+
+@-webkit-keyframes rushiaright {
+  from {
+    stroke-dashoffset: -100;
+  }
+  50% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+
+@keyframes rushiaright {
+  from {
+    stroke-dashoffset: -100;
+  }
+  50% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+
+@-webkit-keyframes rushialeft {
+  from {
+    stroke-dashoffset: -100;
+  }
+  50% {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+
+@keyframes rushialeft {
+  from {
+    stroke-dashoffset: -100;
+  }
+  50% {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: -180;
+  }
+}
+
+@-webkit-keyframes rushiarightA {
+  from {
+    stroke-dashoffset: -150;
+  }
+  50% {
+    stroke-dashoffset: 180;
+  }
+  to {
+    stroke-dashoffset: -240;
+  }
+}
+
+@keyframes rushiarightA {
+  from {
+    stroke-dashoffset: -150;
+  }
+  50% {
+    stroke-dashoffset: 180;
+  }
+  to {
+    stroke-dashoffset: -240;
+  }
+}
+
+@-webkit-keyframes rushialeftA {
+  from {
+    stroke-dashoffset: -200;
+  }
+  50% {
+    stroke-dashoffset: 180;
+  }
+  to {
+    stroke-dashoffset: -240;
+  }
+}
+
+@keyframes rushialeftA {
+  from {
+    stroke-dashoffset: -200;
+  }
+  50% {
+    stroke-dashoffset: 180;
+  }
+  to {
+    stroke-dashoffset: -240;
+  }
+}
+
+@-webkit-keyframes rushiabone {
+  form {
+    position: absolute;
+    -webkit-transform: rotate(241deg);
+            transform: rotate(241deg);
+    -webkit-transform-origin: 66px -39px;
+            transform-origin: 66px -39px;
+    opacity: 0;
+  }
+  50% {
+    position: absolute;
+    -webkit-transform: rotate(143deg);
+            transform: rotate(143deg);
+    -webkit-transform-origin: 35px 16px;
+            transform-origin: 35px 16px;
+    opacity: .5;
+  }
+  to {
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 10px 7px;
+            transform-origin: 10px 7px;
+    opacity: 1;
+  }
+}
+
+@keyframes rushiabone {
+  form {
+    position: absolute;
+    -webkit-transform: rotate(241deg);
+            transform: rotate(241deg);
+    -webkit-transform-origin: 66px -39px;
+            transform-origin: 66px -39px;
+    opacity: 0;
+  }
+  50% {
+    position: absolute;
+    -webkit-transform: rotate(143deg);
+            transform: rotate(143deg);
+    -webkit-transform-origin: 35px 16px;
+            transform-origin: 35px 16px;
+    opacity: .5;
+  }
+  to {
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 10px 7px;
+            transform-origin: 10px 7px;
+    opacity: 1;
+  }
+}
+
+/*about butterfly start*/
+@-webkit-keyframes flap-l {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  50% {
+    -webkit-transform: rotateY(80deg);
+            transform: rotateY(80deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
+@keyframes flap-l {
+  0% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+  50% {
+    -webkit-transform: rotateY(80deg);
+            transform: rotateY(80deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+  }
+}
+
+@-webkit-keyframes flap-r {
+  0% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(-100deg);
+            transform: rotateY(-100deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+
+@keyframes flap-r {
+  0% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  50% {
+    -webkit-transform: rotateY(-100deg);
+            transform: rotateY(-100deg);
+  }
+  100% {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+}
+
+@-webkit-keyframes drawleft {
+  from {
+    stroke-dashoffset: -50;
+  }
+  50% {
+    stroke-dashoffset: 50;
+  }
+  to {
+    stroke-dashoffset: -60;
+  }
+}
+
+@keyframes drawleft {
+  from {
+    stroke-dashoffset: -50;
+  }
+  50% {
+    stroke-dashoffset: 50;
+  }
+  to {
+    stroke-dashoffset: -60;
+  }
+}
+
+@-webkit-keyframes drawright {
+  from {
+    stroke-dashoffset: -100;
+  }
+  60% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+@keyframes drawright {
+  from {
+    stroke-dashoffset: -100;
+  }
+  60% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+@-webkit-keyframes drawlater {
+  from {
+    stroke-dashoffset: -120;
+  }
+  70% {
+    stroke-dashoffset: 120;
+  }
+  75% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -30;
+  }
+}
+
+@keyframes drawlater {
+  from {
+    stroke-dashoffset: -120;
+  }
+  70% {
+    stroke-dashoffset: 120;
+  }
+  75% {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: -30;
+  }
+}
+
+/*about butterfly end*/
 .container {
   font-family: 'seto', serif;
+}
+
+.rushia-bg {
+  height: 100%;
+  background-color: #fff;
+  background-image: url(https://raw.githubusercontent.com/JohnYang02182/rushiagachi/master/main_page/img/pic_bg.png);
+  background-attachment: fixed;
+  background-size: 100px 100px;
+  -webkit-animation: backgroundmove 12s linear 0s infinite normal;
+          animation: backgroundmove 12s linear 0s infinite normal;
 }
 
 .section {
   position: relative;
   width: 100%;
+}
+
+.section .intro-title {
+  margin: 0 0 16px 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  color: #323232;
+  text-align: center;
 }
 
 .section .section-content_main {
@@ -412,7 +739,8 @@ table {
 }
 
 .section-firstcut {
-  height: 800px;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
 }
 
 .section-firstcut .firstcut_main {
@@ -425,7 +753,6 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fff;
   height: 100%;
 }
 
@@ -438,29 +765,394 @@ table {
      object-fit: contain;
 }
 
+.img_rushia-logo {
+  width: 100%;
+  text-align: center;
+}
+
+.img_rushia-logo .uru-name-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.img_rushia-logo .uru-block {
+  margin: 0 36px 0 0;
+  max-width: 180px;
+  width: 100%;
+  height: unset;
+}
+
+.img_rushia-logo .uru-block:nth-last-child(1) {
+  margin: 0;
+}
+
+.img_rushia-logo .text-ru {
+  max-width: 95px;
+  width: 100%;
+  height: unset;
+}
+
+.img_rushia-logo .text-shi, .img_rushia-logo .text-a {
+  max-width: 100px;
+  width: 100%;
+  height: unset;
+  overflow: initial;
+}
+
+.img_rushia-logo .text-a {
+  max-width: 114px;
+}
+
+.uru-sub {
+  margin: 16px 0 0 0;
+  width: auto;
+  height: 36px;
+}
+
+/*rushia動畫 開始*/
+#uru_right path {
+  stroke-dasharray: 300;
+  stroke-dashoffset: -300;
+  -webkit-animation: rushiaright 4s linear infinite;
+          animation: rushiaright 4s linear infinite;
+}
+
+#uru_right circle,
+#uru_right line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushiaright 4s linear infinite;
+          animation: rushiaright 4s linear infinite;
+}
+
+#uru_left path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushialeft 4s linear infinite;
+          animation: rushialeft 4s linear infinite;
+}
+
+#uru_left circle,
+#uru_left line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushialeft 4s linear infinite;
+          animation: rushialeft 4s linear infinite;
+}
+
+#ha_right path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushiaright 4s linear infinite;
+          animation: rushiaright 4s linear infinite;
+}
+
+#ha_right circle,
+#ha_right line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushiaright 4s linear infinite;
+          animation: rushiaright 4s linear infinite;
+}
+
+#ha_left path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushialeft 4s linear infinite;
+          animation: rushialeft 4s linear infinite;
+}
+
+#ha_left circle,
+#ha_left line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushialeft 4s linear infinite;
+          animation: rushialeft 4s linear infinite;
+}
+
+#ru path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushiarightA 4s linear infinite;
+          animation: rushiarightA 4s linear infinite;
+}
+
+#ru circle,
+#ru line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushiarightA 4s linear infinite;
+          animation: rushiarightA 4s linear infinite;
+}
+
+#shi {
+  position: relative;
+}
+
+#shi #shi-bone {
+  position: absolute;
+  -webkit-transform: rotate(241deg);
+          transform: rotate(241deg);
+  -webkit-transform-origin: 66px -39px;
+          transform-origin: 66px -39px;
+  -webkit-animation: rushiabone 1.5s linear infinite;
+          animation: rushiabone 1.5s linear infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  opacity: 0;
+}
+
+#shi path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  -webkit-animation: rushiarightA 4s linear infinite;
+          animation: rushiarightA 4s linear infinite;
+}
+
+#shi circle,
+#shi line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushiarightA 4s linear infinite;
+          animation: rushiarightA 4s linear infinite;
+}
+
+#a path {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushialeftA 4s linear infinite;
+          animation: rushialeftA 4s linear infinite;
+}
+
+#a circle,
+#a line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: rushialeftA 4s linear infinite;
+          animation: rushialeftA 4s linear infinite;
+}
+
+.img_butterfly {
+  position: absolute;
+}
+
+.img_butterfly path {
+  stroke-dasharray: 300;
+  stroke-dashoffset: -300;
+}
+
+.img_butterfly line {
+  stroke-dasharray: 800;
+  stroke-dashoffset: -800;
+  -webkit-animation: drawlater 4s linear infinite;
+          animation: drawlater 4s linear infinite;
+}
+
+.butterfly-one {
+  top: 104px;
+  left: 44px;
+}
+
+.butterfly-one svg {
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.butterfly-one .butterfly-left {
+  -webkit-transform-origin: center 50%;
+          transform-origin: center 50%;
+  -webkit-animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.butterfly-one .butterfly-left path {
+  -webkit-animation: drawleft 4s linear infinite;
+          animation: drawleft 4s linear infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.butterfly-one .butterfly-right {
+  -webkit-transform-origin: center -50%;
+          transform-origin: center -50%;
+  -webkit-animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.butterfly-one .butterfly-right path {
+  -webkit-animation: drawright 4s linear infinite;
+          animation: drawright 4s linear infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.butterfly-two {
+  top: 33px;
+  right: 65px;
+}
+
+.butterfly-two svg {
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
+}
+
+.butterfly-two .butterfly-left {
+  -webkit-transform-origin: center 50%;
+          transform-origin: center 50%;
+  -webkit-animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.butterfly-two .butterfly-left path {
+  -webkit-animation: drawleft 4s linear infinite;
+          animation: drawleft 4s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.butterfly-two .butterfly-right {
+  -webkit-transform-origin: center -50%;
+          transform-origin: center -50%;
+  -webkit-animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.butterfly-two .butterfly-right path {
+  -webkit-animation: drawright 4s linear infinite;
+          animation: drawright 4s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.butterfly-three {
+  top: 450px;
+  left: 750px;
+}
+
+.butterfly-three svg {
+  width: 160px;
+  height: 160px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.butterfly-three .butterfly-left {
+  -webkit-transform-origin: center 50%;
+          transform-origin: center 50%;
+  -webkit-animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.butterfly-three .butterfly-left path {
+  -webkit-animation: drawleft 4s linear infinite;
+          animation: drawleft 4s linear infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.butterfly-three .butterfly-right {
+  -webkit-transform-origin: center -50%;
+          transform-origin: center -50%;
+  -webkit-animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.butterfly-three .butterfly-right path {
+  -webkit-animation: drawright 4s linear infinite;
+          animation: drawright 4s linear infinite;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.butterfly-four {
+  top: 442px;
+  left: 225px;
+}
+
+.butterfly-four svg {
+  width: 240px;
+  height: 240px;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+.butterfly-four .butterfly-left {
+  -webkit-transform-origin: center 50%;
+          transform-origin: center 50%;
+  -webkit-animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-l 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.butterfly-four .butterfly-left path {
+  -webkit-animation: drawleft 4s linear infinite;
+          animation: drawleft 4s linear infinite;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.butterfly-four .butterfly-right {
+  -webkit-transform-origin: center -50%;
+          transform-origin: center -50%;
+  -webkit-animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+          animation: flap-r 4s cubic-bezier(0.08, 1, 0.65, -0.68) infinite;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+.butterfly-four .butterfly-right path {
+  -webkit-animation: drawright 4s linear infinite;
+          animation: drawright 4s linear infinite;
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+
+/*rushia動畫 結束*/
+.section-intro .section-content_main {
+  margin: 36px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+}
+
 .section-intro .intro_main {
   position: relative;
-  background-color: #7AA7DE;
+  background: rgba(255, 255, 255, 0.9);
   padding: 32px;
   height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.section-intro .intro-title {
-  margin: 0 0 16px 0;
-  width: 100%;
-  font-size: 24px;
-  font-weight: 600;
-  color: #323232;
-  text-align: center;
-}
-
 .section-intro .intro-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 24px 48px;
+  padding: 24px 0px;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -489,6 +1181,141 @@ table {
   color: #323232;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.section-painter .painter-main {
+  padding: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section-painter .painter-main_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.section-painter .painter-header-img_block {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100px;
+          flex: 1 0 100px;
+  max-width: 100px;
+  width: 100%;
+  border-radius: 180px;
+  overflow: hidden;
+}
+
+.section-painter .painter-header-img_block:after {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.section-painter .painter-header-img_block > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.section-painter .painter-info_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-painter .painter-info_block .painter-name {
+  margin: 0 16px 16px 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.section-painter .painter-info_block .painter-social_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 16px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section-painter .painter-info_block .painter-social_link .btn-social {
+  position: relative;
+  margin: 0 16px 0 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px 2px rgba(50, 50, 50, 0.2);
+          box-shadow: 0 0 8px 2px rgba(50, 50, 50, 0.2);
+  overflow: hidden;
+}
+
+.section-painter .painter-info_block .painter-social_link .btn-social > img, .section-painter .painter-info_block .painter-social_link .btn-social svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-painter .painter-main_img {
+  width: 100%;
+}
+
+.section-painter .painter-main_img > img {
+  width: 100%;
+}
+
+.section-painter .painter-main_img > p {
+  margin-top: 16px;
+  color: #323232;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.section-painter .new_setting .new_setting_rushia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.section-painter .new_setting .new_setting_rushia .painter-main_img_inner {
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+}
+
+.section-painter .new_setting .new_setting_rushia .painter-main_img_inner > img {
+  width: 100%;
+}
+
+.section-painter .new_setting .new_setting_rushia .painter-main_img_inner:nth-last-of-type(1) {
+  -webkit-box-flex: 9;
+      -ms-flex-positive: 9;
+          flex-grow: 9;
 }
 
 /*# sourceMappingURL=main_page.css.map */

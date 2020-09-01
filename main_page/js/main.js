@@ -21,10 +21,13 @@ $( document ).ready(function() {
     var winheight = $(window).scrollTop();
     if(winheight>0){
       $(".nav-outer").css("background","#32416B");
+      $(".ul-list li a").css("color","#fafafa");
       $(".nav-outer").addClass("scrollNav-animate");
     }
     else{
-      $(".nav-outer").css("background","unset");$(".nav-outer").removeClass("scrollNav-animate");
+      $(".nav-outer").css("background","unset");
+      $(".ul-list li a").css("color","");
+      $(".nav-outer").removeClass("scrollNav-animate");
     }
   });
 
